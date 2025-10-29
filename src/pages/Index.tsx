@@ -32,7 +32,7 @@ const Index = () => {
             <Button
               variant="menu"
               size="lg"
-              className="w-full md:w-1/2 h-20"
+              className="w-full h-20"
             >
               🥤 Juice Menu
             </Button>
@@ -41,7 +41,7 @@ const Index = () => {
             <Button
               variant="menu"
               size="lg"
-              className="w-full md:w-1/2 h-20"
+              className="w-full h-20"
             >
               🍖 Food Menu
             </Button>
