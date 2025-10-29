@@ -23,34 +23,29 @@ const Index = () => {
         
         {/* Tagline */}
         <p className="mb-16 text-xl md:text-2xl text-foreground/90 font-medium animate-in fade-in duration-700 delay-200">
-          Authentic Slow-Smoked BBQ & Fresh Juices
+          Authentic Slow-Smoked BBQ & <br/> Fresh Juices
         </p>
 
         {/* Menu Buttons */}
         <div className="flex flex-col md:flex-row gap-6 mb-20 w-full max-w-2xl animate-in fade-in duration-700 delay-300">
-          <Button
-            variant="menu"
-            size="lg"
-            className="w-full md:w-1/2 h-20"
-            onClick={() => {
-              // Add your juice menu link here
-              console.log("Navigate to Juice Menu");
-            }}
-          >
-            🥤 Juice Menu
-          </Button>
-          
-          <Button
-            variant="menu"
-            size="lg"
-            className="w-full md:w-1/2 h-20"
-            onClick={() => {
-              // Add your food menu link here
-              console.log("Navigate to Food Menu");
-            }}
-          >
-            🍖 Food Menu
-          </Button>
+          <a href="https://www.cravings.live/hotels/FRUIT-FUELLED-ENERGY/b568173b-dd55-4f1c-9ccb-f3005c7e1d21">
+            <Button
+              variant="menu"
+              size="lg"
+              className="w-full md:w-1/2 h-20"
+            >
+              🥤 Juice Menu
+            </Button>
+          </a>
+          <a href="https://www.cravings.live/hotels/WARREN'S-BARBECUE-COMPANY/d68d1ecd-adc6-48cf-b927-9ba831d70a57">
+            <Button
+              variant="menu"
+              size="lg"
+              className="w-full md:w-1/2 h-20"
+            >
+              🍖 Food Menu
+            </Button>
+          </a>
         </div>
 
         {/* Social Media Icons */}
